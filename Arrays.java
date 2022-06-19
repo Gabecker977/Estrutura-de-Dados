@@ -1,6 +1,6 @@
 package edd;
 
-public class Pilha {
+public class Array {
 
 	public static void main(String[] args) {
 		//Testes aqui

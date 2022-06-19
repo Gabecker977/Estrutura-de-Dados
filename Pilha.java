@@ -65,5 +65,11 @@ public class Pilha {
         else
           System.out.println("Vazio");
     }
+    //Converte todos os elementos da pilha para binario 
+    public static void bin(){
+    if(!vazio()){
+     for(int i=indiceTopo+1;i>=0;i--){
+    vet[i] = Integer.valueOf(Integer.toBinaryString(vet[i]));}
+    }}
     
 }
